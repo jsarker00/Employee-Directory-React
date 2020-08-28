@@ -4,7 +4,7 @@ function Header() {
         <div>
             <header>
                 {/* logo image */}
-                <img src="#" alt="Company Logo"></img>
+                <img src="abstract-people-3205ld.png" alt="Company Logo"></img>
                 {/* title of the company */}
                 <h1> Company Title</h1>
             </header>
