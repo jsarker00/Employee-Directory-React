@@ -1,7 +1,8 @@
 import React from 'react'
 import './styles/App.css';
 import Header from "./components/Header"
-import EmployeeCard from "./components/EmployeeCard"
+import employees from "./employee.json";
+import EmployeeTable from "./components/EmployeeTable";
 
 function App() {
   return (
@@ -10,11 +11,8 @@ function App() {
         
         
         <h4 style={{textAlign:"center"}}>Employee Directory</h4> 
-        <p style={{textAlign:"center"}}>My first app!</p>
-        <EmployeeCard/>
-        <br/>
-        <br/>
-        <EmployeeCard/>
+        <EmployeeTable/>
+        
     </div>
     
   );
